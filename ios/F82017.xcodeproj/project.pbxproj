@@ -730,7 +730,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 9B8M3M76P9;
+						DevelopmentTeam = 34A9D256U4;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1232,7 +1232,7 @@
 				CODE_SIGN_ENTITLEMENTS = F82017/F82017.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				DEVELOPMENT_TEAM = 34A9D256U4;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1245,7 +1245,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8;
+				PRODUCT_BUNDLE_IDENTIFIER = test.something.to.test;
 				PRODUCT_NAME = F82017;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1258,7 +1258,7 @@
 				CODEPUSH_KEY = "qFZ_DANxpdRqMzw6anqVg9Z0D_RuVkEG2YjY-";
 				CODE_SIGN_ENTITLEMENTS = F82017/F82017.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				DEVELOPMENT_TEAM = 34A9D256U4;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1271,7 +1271,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8;
+				PRODUCT_BUNDLE_IDENTIFIER = test.something.to.test;
 				PRODUCT_NAME = F82017;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

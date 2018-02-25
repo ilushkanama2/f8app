@@ -1,0 +1,28 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+fastlane_version "2.60.0"
+
+default_platform :ios
+
+platform :ios do
+  desc "Just build"
+  lane :build do
+    gym(
+      project: "F82017",
+      scheme: "F82017",
+      configuration: "release",
+      output_directory: "build",
+      export_method: "ad-hoc",
+      output_name: "internal"
+    )
+  end
+end
