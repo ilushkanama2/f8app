@@ -19,7 +19,7 @@ platform :ios do
     gym(
       project: "F82017.xcodeproj",
       scheme: "F82017",
-      configuration: "release",
+      configuration: "Release",
       output_directory: "build",
       export_method: "development",
       output_name: "internal",
