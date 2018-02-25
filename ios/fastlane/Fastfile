@@ -15,14 +15,15 @@ default_platform :ios
 
 platform :ios do
   desc "Just build"
-  lane :build do
+  lane :example_build do
     gym(
-      project: "F82017",
+      project: "F82017.xcodeproj",
       scheme: "F82017",
       configuration: "release",
       output_directory: "build",
-      export_method: "ad-hoc",
-      output_name: "internal"
+      export_method: "development",
+      output_name: "internal",
+      xcargs: "-allowProvisioningUpdates"
     )
   end
 end
